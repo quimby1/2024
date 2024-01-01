@@ -1,0 +1,68 @@
+:root{
+    --claro : #E9F1F2;
+    --gris: #BAD9D9;
+    --verde1:#8BD9D1;
+    --verde2:#3DD9BC;
+    --verde3:#77D9C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--claro);
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.categorias i{
+    font-size: 190px;
+    padding: 15px;
+}
+
+.podcast{
+    shape-outside: circle();
+    clip-path: circle();
+    background-color: #B0D9C1;
+    cursor: pointer;
+    animation: rotateIn;
+    animation-duration: 1.5s;
+}
+
+.libros{
+    shape-outside: circle();
+    clip-path: circle();
+    background-color: #B0D9C1;
+    cursor: pointer;
+    animation: rotateIn;
+    animation-duration: 1.5s;
+}
+
+.lugares{
+    shape-outside: circle();
+    clip-path: circle();
+    background-color: #B0D9C1;
+    cursor: pointer;
+    animation: rotateIn;
+    animation-duration: 1.5s;
+}
+
+.ig{
+    shape-outside: circle();
+    clip-path: circle();
+    background-color: #B0D9C1;
+    cursor: pointer;
+    animation: rotateIn;
+    animation-duration: 1.5s;
+}
