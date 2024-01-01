@@ -1,0 +1,84 @@
+:root{
+    --claro : #E9F1F2;
+    --gris: #BAD9D9;
+    --verde1:#8BD9D1;
+    --verde2:#3DD9BC;
+    --verde3:#77D9C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    background-color: #6A9999;
+}
+
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px 0px;
+    margin-left: 15%;
+}
+
+.navBar a{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+@media  (min-width: 600px) and (max-width: 800px){
+    .navBar{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media  (min-width: 500px) and (max-width: 600px){
+    .navBar{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .navBar a{
+        font-size: 15px;
+    }
+
+}
+
+@media  (min-width: 450px) and (max-width: 500px){
+    .navBar{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .navBar a{
+        font-size: 15px;
+    }
+
+}
+
+@media  (min-width: 300px) and (max-width: 450px){
+    .navBar{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .navBar a{
+        font-size: 10px;
+    }
+
+}

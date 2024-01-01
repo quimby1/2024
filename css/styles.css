@@ -1,0 +1,154 @@
+:root{
+    --claro : #E9F1F2;
+    --gris: #BAD9D9;
+    --verde1:#8BD9D1;
+    --verde2:#3DD9BC;
+    --verde3:#77D9C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.paginaPrincipal{
+    background-image: url(/img/fondo.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tituloInicio{
+    font-size: 70px;
+    font-weight: bold;
+    animation: rotateOut; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; 
+    animation-delay: 1s;
+    background-color: var(--claro);
+    z-index: 10;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contendor{
+    background-color: var(--gris);
+    padding: 30px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.contenedorBlanco{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloCon{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.intro{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+}
+
+.boton{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    background-color: var(--verde1);
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.boton:hover{
+    transform: scale(1.2);
+}
+
+
+@media  (min-width: 700px) and (max-width: 1000px){
+    .contendor{
+        width: 40%;
+    }
+
+    .tituloInicio{
+        font-size: 50px;
+    }
+}
+
+@media  (min-width: 600px) and (max-width: 700px){
+    .contendor{
+        width: 50%;
+    }
+
+    .tituloInicio{
+        font-size: 45px;
+    }
+}
+
+@media  (min-width: 500px) and (max-width: 600px){
+    .contendor{
+        width: 60%;
+    }
+
+    .tituloInicio{
+        font-size: 45px;
+    }
+}
+
+
+@media  (min-width: 300px) and (max-width: 500px){
+    .contendor{
+        width: 75%;
+    }
+
+    .tituloCon{
+        font-size: 25px;
+    }
+
+    .intro{
+       font-size: 14px;
+    }
+
+    .tituloInicio{
+        font-size: 40px;
+    }
+    
+}
+
+@media  (min-width: 300px) and (max-width: 400px){
+    .boton{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .tituloInicio{
+        font-size: 30px;
+    }
+}

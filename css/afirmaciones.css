@@ -1,0 +1,89 @@
+:root{
+    --claro : #E9F1F2;
+    --gris: #BAD9D9;
+    --verde1:#8BD9D1;
+    --verde2:#3DD9BC;
+    --verde3:#77D9C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--claro);
+}
+
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.cambio{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #D9C6A5;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.contenedor{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.imagen{
+    width: 450px;
+    margin: 25px;
+}
+
+@media  (min-width: 1000px) and (max-width: 1200px){
+    .imagen{
+        width: 400px;
+    }
+}
+
+@media  (min-width: 600px) and (max-width: 1000px){
+    .imagen{
+        width: 350px;
+    }
+}
+
+@media  (min-width: 450px) and (max-width: 600px){
+    .imagen{
+        width: 300px;
+    }
+}
+
+@media  (min-width: 350px) and (max-width: 450px){
+    .imagen{
+        width: 250px;
+    }
+    .cambio{
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+}
+
+@media  (min-width: 300px) and (max-width: 350px){
+    .imagen{
+        width: 200px;
+    }
+
+    .cambio{
+        padding: 15px 20px;
+        font-size: 11px;
+    }
+}
