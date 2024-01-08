@@ -34,5 +34,24 @@ body{
 }
 
 .podcast{
-    width: 70%;
+    width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    .podcast{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .podcast{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .podcast{
+        width: 80%;
+    }
 }
