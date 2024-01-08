@@ -48,6 +48,16 @@ body{
     .podcast{
         width: 70%;
     }
+
+    .titulo{
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    .contenedorPrincipal{
+        margin: 20px 0px;
+        gap: 15px;
+    }
 }
 
 @media screen and (max-width: 350px) {
