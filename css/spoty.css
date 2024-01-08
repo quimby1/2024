@@ -1,0 +1,38 @@
+:root{
+    --claro : #E9F1F2;
+    --gris: #BAD9D9;
+    --verde1:#8BD9D1;
+    --verde2:#3DD9BC;
+    --verde3:#77D9C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--claro);
+}
+
+.titulo{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    gap: 15px;
+}
+
+.podcast{
+    width: 70%;
+}
