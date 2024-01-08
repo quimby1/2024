@@ -5,3 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		outDuration: 500
 	});
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+	var elem = document.querySelector('.masonry');
+	var msnry = new Masonry(elem, {
+		itemSelector: '.col',
+		percentPosition: true
+	});
+});
