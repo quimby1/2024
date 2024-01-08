@@ -1,0 +1,18 @@
+:root{
+    --claro : #E9F1F2;
+    --gris: #BAD9D9;
+    --verde1:#8BD9D1;
+    --verde2:#3DD9BC;
+    --verde3:#77D9C7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--claro);
+}
