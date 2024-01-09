@@ -17,6 +17,12 @@ body{
     background-color: var(--claro);
 }
 
+.titulo1{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .titulo{
     margin-bottom: 30px;
     font-size: 30px;
@@ -51,6 +57,10 @@ body{
 
     .titulo{
         margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .titulo1{
         font-size: 25px;
     }
     
