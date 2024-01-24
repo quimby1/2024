@@ -49,6 +49,7 @@ body{
 
 .portada{
     width: 150px;
+    object-fit: cover;
 }
 
 .contenido{
