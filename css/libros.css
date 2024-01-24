@@ -43,13 +43,20 @@ body{
 .libro{
     display: flex;
     flex-direction: row;
-    border: red 2px solid;
+    /*border: red 2px solid;*/
     padding: 15px;
     gap: 20px;
 }
 
 .portada{
     width: 150px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .titulo{
@@ -62,5 +69,34 @@ body{
 }
 
 .botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.botones button{
+    border: none;
+    background-color: #D9C6A5;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+
+.vermas{
     
+}
+
+.carrito{
+    display: flex;
+    align-items: center;
+}
+
+.audiolibro{
+    display: flex;
+    align-items: center;
 }
